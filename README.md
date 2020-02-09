@@ -14,4 +14,4 @@ This is a Python file which provides bikeshare data to explore for users. This d
 The files used are bikeshare.py
 
 ### Credits
-Credit to Udacity.com
+Credit to Udacity.com 
