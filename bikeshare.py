@@ -36,7 +36,7 @@ def get_filters():
             break
         else:
             print('Sorry, data not available for that month')
-            month = input('Choose month (Note: only January to June are available at this time): ').lower()
+            month = input('Choose month (Note: only January to June are available at this time) : ').lower()
 
     # Get user input for day of week (all, monday, tuesday, ... sunday). Invalid inputs are captured using an if loop.
     day = input('Choose weekday: ').lower()
