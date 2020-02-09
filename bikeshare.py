@@ -161,12 +161,12 @@ def user_stats(df):
 def raw_data(df):
     """Displays raw data if input is provided by user"""
     pd.set_option('display.max_columns', None)
-    raw_data = input('\nWould you like to see more data? Please enter yes or no.\n')
+    raw_data = input('\nWould you like to see more data? Please enter yes or no\n')
     start_row = 0
     end_row = 5
     while raw_data.lower() == 'yes':
         print(df.loc[start_row:end_row])
-        raw_data = input('\nWould you like to see more data? Please enter yes or no.\n')
+        raw_data = input('\nWould you like to see more data? Please enter yes or no\n')
         start_row += 5
         end_row += 5
 
